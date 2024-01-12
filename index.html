@@ -10,8 +10,16 @@
   <title>Curriculum Vitae</title>
   <link href="dist/css/bootstrap.min.css" rel="stylesheet">
   <link href="styles.css" rel="stylesheet">
-  <script defer ></script>
   <script src="dist/js/bootstrap.bundle.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+  <script>
+    document.addEventListener('DOMContentLoaded',()=> {
+      let type = new Typed('#typo', {
+        strings: ['Seeking the role of a Software Engineer where I can contribute towards the organizational goals through my analytical skills and knowledge acquired by pursuing a degree in Software Engineering and working in some organizations.'],
+        typeSpeed: 50,
+      })
+    })
+  </script>
 </head>
 
 <body>
@@ -56,10 +64,7 @@
     <div id="personal" class="p-4 p-md-5 mb-4 rounded text-bg-dark">
       <div class="col-md-6 px-0">
         <h1 class="display-4 fst-italic">Full Stack Developer</h1>
-        <p id="typo" class="lead my-3">Seeking the role of a Software Engineer where I can contribute towards the organizational
-          goals through my
-          analytical skills and knowledge acquired by pursuing a degree in Software Engineering and working in some
-          organizations.</p>
+        <p id="typo" class="lead my-3"></p>
       </div>
     </div>
     <hr>
